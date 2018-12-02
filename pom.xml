@@ -6,7 +6,10 @@
 	<groupId>com.sopehl</groupId>
 	<artifactId>sopehl-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>sopehl-property-source</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>sopehl-parent</name>
 	<description>Demo project for Spring Boot</description>
